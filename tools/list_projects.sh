@@ -1,0 +1,1 @@
+ curl "https://gitlab.alpinelinux.org/api/v4/projects/1/?per_page=100" | jq '.[].name'
